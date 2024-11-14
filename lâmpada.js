@@ -3,7 +3,7 @@ let desligada = document.getElementById('but-2');
 let imagem = document.getElementById('lp-fun');
 
 function verificaLamp() {
-    return imagem.src.indexOf = ("quebrada") > -1
+    return imagem.src.indexOf ('quebrada') > -1
 }
 
 function lamLig() {
@@ -29,4 +29,4 @@ ligada.addEventListener("click", lamLig)
 desligada.addEventListener("click", lamDes)
 imagem.addEventListener ( 'mouseover', lamLig );
 imagem.addEventListener ( 'mouseleave', lamDes );
-imagem.addEventListener ("ondblclick", duplo);
+imagem.addEventListener ("dblclick", duplo)
