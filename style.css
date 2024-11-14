@@ -1,3 +1,4 @@
+
 main {
     display: flex;
     flex-direction: column;
@@ -10,6 +11,13 @@ h1 {
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 2.5rem;
     font-weight: 700;
+}
+
+img {
+    width: 150%;
+    position: relative;
+    left: -27%;
+    margin-bottom: 10px;
 }
 
 .buttons {
